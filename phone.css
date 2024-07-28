@@ -1,0 +1,76 @@
+/* making it view able on every screen*/
+
+/*Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 0px;
+}
+/*Home Section*/
+#home{
+    height: 370px;
+    padding: 0px 28px;
+}
+
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+/*Services Section*/
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+/*Client Section*/
+#clients {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.client-item {
+    flex: 1; /* Each item will grow to use available space */
+    max-width: 150px; /* Maximum width for large screens */
+    padding: 10px; /* Space around each logo */
+    box-sizing: border-box;
+}
+
+#clients img{
+    width: 150px;
+    padding: 2px 6px;
+    height: auto;
+}
+
+/*.client-item img {
+    width: 500px; 
+    height: 500px; 
+    max-width: 100px; 
+    display: block; 
+    margin: 0 auto; 
+}*/
+
+/*Contact Section*/
+#contact-box form{
+    width: 80%;
+}
+/*Footer*/
+
+/*Utility Classes*/
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
